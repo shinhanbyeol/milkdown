@@ -1,0 +1,743 @@
+repo_name: shinhanbyeol/milkdown
+report_id: f88890219198e7f55a7b3536d05c25cf
+version: 0.1
+repo_type: Public
+timestamp: '2024-03-14T04:40:13+00:00'
+requested_by: Saul-Mirone
+provider: github
+branch: main
+detected_tools_count: 55
+tools:
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/shinhanbyeol/milkdown
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/shinhanbyeol/milkdown
+  detection_source: Repo Metadata
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/shinhanbyeol/milkdown
+  detection_source: Repo Metadata
+- name: Autoprefixer
+  description: PostCSS plugin to parse CSS and add vendor prefixes to CSS rules
+  website_url: https://github.com/postcss/autoprefixer
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/2202/72d087642cfce6fef6f2dabec5bf49e8_400x400.png
+  detection_source_url: https://github.com/shinhanbyeol/milkdown/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Mirone Saul
+  last_updated_on: 2022-12-02 06:24:16.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/shinhanbyeol/milkdown/blob/main/.devcontainer/Dockerfile
+  detection_source: ".devcontainer/Dockerfile"
+  last_updated_by: Saul Mirone
+  last_updated_on: 2021-05-27 04:40:52.000000000 Z
+- name: PostCSS
+  description: Transform CSS with JS plugins
+  website_url: https://github.com/postcss/postcss
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/3339/rlFcjEdI.png
+  detection_source_url: https://github.com/shinhanbyeol/milkdown/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Mirone
+  last_updated_on: 2021-03-27 09:16:56.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 18.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/shinhanbyeol/milkdown/blob/main/packages/react/package.json
+  detection_source: packages/react/package.json
+  last_updated_by: Mirone Saul
+  last_updated_on: 2022-11-24 05:11:10.000000000 Z
+- name: Tailwind CSS
+  description: A utility-first CSS framework for rapid UI development
+  website_url: https://tailwindcss.com
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/8158/default_660b7c41c3ba489cb581eec89c04655404258c19.png
+  detection_source_url: https://github.com/shinhanbyeol/milkdown/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Mirone Saul
+  last_updated_on: 2023-01-05 06:19:36.000000000 Z
+- name: Vue.js
+  description: A progressive framework for building user interfaces
+  website_url: http://vuejs.org/
+  version: 3.2.47
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript MVC Frameworks
+  image_url: https://img.stackshare.io/service/3837/paeckCWC.png
+  detection_source_url: https://github.com/shinhanbyeol/milkdown/blob/main/packages/vue/package.json
+  detection_source: packages/vue/package.json
+  last_updated_by: Saul Mirone
+  last_updated_on: 2021-06-18 09:09:11.000000000 Z
+- name: Cypress
+  description: When testing is easy, developers build better things faster and with
+    confidence.
+  website_url: https://www.cypress.io/
+  version: 12.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/9231/default_66c5c1a197dcd0232e41e4ab6299d119b4e165b3.png
+  detection_source_url: https://github.com/shinhanbyeol/milkdown/blob/main/e2e/package.json
+  detection_source: e2e/package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2022-12-06 20:39:27.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/shinhanbyeol/milkdown
+  detection_source: Repo Metadata
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/shinhanbyeol/milkdown/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Mirone
+  last_updated_on: 2021-03-27 09:16:56.000000000 Z
+- name: Esbuild
+  description: An extremely fast JavaScript bundler
+  website_url: https://esbuild.github.io/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/25166/default_2dcc9286a150737a14625d18f6f93747f72be430.png
+  detection_source_url: https://github.com/shinhanbyeol/milkdown/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-01-14 10:21:17.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/shinhanbyeol/milkdown
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/shinhanbyeol/milkdown/blob/main/.github/workflows/ci-for-pr.yml
+  detection_source: ".github/workflows/ci-for-pr.yml"
+  last_updated_by: Mirone
+  last_updated_on: 2021-08-12 16:17:51.000000000 Z
+- name: Vite
+  description: Native-ESM powered web dev build tool
+  website_url: https://vitejs.dev/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/21547/default_1aeac791cde11ff66cc0b20dcc6144eeb185c905.png
+  detection_source_url: https://github.com/shinhanbyeol/milkdown/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Mirone
+  last_updated_on: 2021-03-27 09:16:56.000000000 Z
+- name: jsdom
+  description: A JavaScript implementation of the WHATWG DOM and HTML standards, for
+    use with node.js
+  website_url: https://github.com/jsdom/jsdom
+  version: 21.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Headless Browsers
+  image_url: https://img.stackshare.io/service/7054/preview.jpeg
+  detection_source_url: https://github.com/shinhanbyeol/milkdown/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-01-07 17:54:51.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/shinhanbyeol/milkdown/blob/main/packages/vue/package.json
+  detection_source: packages/vue/package.json
+  last_updated_by: Saul Mirone
+  last_updated_on: 2021-06-18 09:09:11.000000000 Z
+- name: rollup
+  description: The next-generation JavaScript module bundler
+  website_url: http://rollupjs.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/4423/zE8RTn9E_400x400.jpg
+  detection_source_url: https://github.com/shinhanbyeol/milkdown/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-01-06 16:45:53.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/shinhanbyeol/milkdown
+  detection_source: Repo Metadata
+- name: eslint-plugin-tailwindcss
+  description: Rules enforcing best practices and consistency using Tailwind CSS.
+  website_url: https://www.npmjs.com/package/eslint-plugin-tailwindcss
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/48327/default_e1e547104832f8e187369b19e928e17a8be5020b.png
+  detection_source_url: https://github.com/shinhanbyeol/milkdown/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-01-29 04:03:27.000000000 Z
+- name: husky
+  website_url: https://github.com/typicode/husky
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/9527/5502029.jpeg
+  detection_source_url: https://github.com/shinhanbyeol/milkdown/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Mirone
+  last_updated_on: 2022-11-15 09:57:51.000000000 Z
+- name: katex
+  website_url: https://github.com/Khan/KaTeX
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/6858/15455.png
+  detection_source_url: https://github.com/shinhanbyeol/milkdown/blob/main/packages/plugin-math/package.json
+  detection_source: packages/plugin-math/package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2022-12-25 05:39:25.000000000 Z
+- name: lint-staged
+  website_url: https://github.com/okonet/lint-staged
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/10577/11071.jpeg
+  detection_source_url: https://github.com/shinhanbyeol/milkdown/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-01-29 04:03:27.000000000 Z
+- name: "@commitlint/cli"
+  description: Lint your commit messages
+  package_url: https://www.npmjs.com/@commitlint/cli
+  version: 17.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16059/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
+  detection_source_url: https://github.com/shinhanbyeol/milkdown/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-01-29 04:03:27.000000000 Z
+- name: "@commitlint/config-conventional"
+  description: Shareable commitlint config enforcing conventional commits
+  package_url: https://www.npmjs.com/@commitlint/config-conventional
+  version: 17.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16092/default_8725384794b44fe56f31da1d21ae759cf07be7a5.png
+  detection_source_url: https://github.com/shinhanbyeol/milkdown/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-01-29 04:03:27.000000000 Z
+- name: "@rollup/plugin-node-resolve"
+  description: Locate and bundle third-party dependencies in node_modules
+  package_url: https://www.npmjs.com/@rollup/plugin-node-resolve
+  version: 15.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17836/default_abcc2eea82e62d338a749f334647866df76198b8.png
+  detection_source_url: https://github.com/shinhanbyeol/milkdown/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-01-06 16:45:53.000000000 Z
+- name: "@tailwindcss/typography"
+  description: A Tailwind CSS plugin for automatically styling plain HTML content
+    with beautiful typographic defaults
+  package_url: https://www.npmjs.com/@tailwindcss/typography
+  version: 0.5.8
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/shinhanbyeol/milkdown/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Mirone Saul
+  last_updated_on: 2023-01-05 06:19:36.000000000 Z
+- name: "@types/node"
+  description: TypeScript definitions for Node.js
+  package_url: https://www.npmjs.com/@types/node
+  version: 18.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: https://github.com/shinhanbyeol/milkdown/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-01-06 16:45:53.000000000 Z
+- name: "@types/react"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react
+  version: 18.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15894/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/shinhanbyeol/milkdown/blob/main/packages/react/package.json
+  detection_source: packages/react/package.json
+  last_updated_by: Mirone Saul
+  last_updated_on: 2022-11-24 05:11:10.000000000 Z
+- name: "@types/react-dom"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react-dom
+  version: 18.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15946/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/shinhanbyeol/milkdown/blob/main/packages/react/package.json
+  detection_source: packages/react/package.json
+  last_updated_by: Mirone Saul
+  last_updated_on: 2022-11-24 05:11:10.000000000 Z
+- name: concurrently
+  description: Run commands concurrently
+  package_url: https://www.npmjs.com/concurrently
+  version: 7.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16041/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
+  detection_source_url: https://github.com/shinhanbyeol/milkdown/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Mirone
+  last_updated_on: 2022-11-15 09:57:51.000000000 Z
+- name: cross-env
+  description: Run scripts that set and use environment variables across platforms
+  package_url: https://www.npmjs.com/cross-env
+  version: 7.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15828/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/shinhanbyeol/milkdown/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Mirone
+  last_updated_on: 2022-11-15 09:57:51.000000000 Z
+- name: eslint-plugin-react
+  description: React specific linting rules for ESLint
+  package_url: https://www.npmjs.com/eslint-plugin-react
+  version: 7.31.11
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15817/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/shinhanbyeol/milkdown/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-01-29 04:03:27.000000000 Z
+- name: eslint-plugin-react-hooks
+  description: ESLint rules for React Hooks
+  package_url: https://www.npmjs.com/eslint-plugin-react-hooks
+  version: 4.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16149/default_1f3a2fc7d882e29a43394ecdf491b8989ea3f0fa.png
+  detection_source_url: https://github.com/shinhanbyeol/milkdown/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-01-29 04:03:27.000000000 Z
+- name: husky
+  description: Prevents bad commit or push
+  package_url: https://www.npmjs.com/husky
+  version: 8.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15831/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/shinhanbyeol/milkdown/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Mirone
+  last_updated_on: 2022-11-15 09:57:51.000000000 Z
+- name: katex
+  description: Fast math typesetting for the web
+  package_url: https://www.npmjs.com/katex
+  version: 0.16.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18250/default_c6b51515d4a1dde78342d80e969e295cabf381ac.png
+  detection_source_url: https://github.com/shinhanbyeol/milkdown/blob/main/packages/plugin-math/package.json
+  detection_source: packages/plugin-math/package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2022-12-25 05:39:25.000000000 Z
+- name: lint-staged
+  description: Lint files staged by git
+  package_url: https://www.npmjs.com/lint-staged
+  version: 13.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15868/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/shinhanbyeol/milkdown/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-01-29 04:03:27.000000000 Z
+- name: lodash.debounce
+  description: The lodash method `_.debounce` exported as a module
+  package_url: https://www.npmjs.com/lodash.debounce
+  version: 4.0.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16481/default_73c88a18b684e01cbdbf945631a40a44aff5a777.png
+  detection_source_url: https://github.com/shinhanbyeol/milkdown/blob/main/packages/plugin-block/package.json
+  detection_source: packages/plugin-block/package.json
+  last_updated_by: Mirone
+  last_updated_on: 2022-12-01 13:14:03.000000000 Z
+- name: nanoid
+  description: A tiny
+  package_url: https://www.npmjs.com/nanoid
+  version: 4.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17208/default_183829c5079b84333a720d8590a328efc043ba0e.png
+  detection_source_url: https://github.com/shinhanbyeol/milkdown/blob/main/packages/plugin-diagram/package.json
+  detection_source: packages/plugin-diagram/package.json
+  last_updated_by: Mirone
+  last_updated_on: 2022-11-15 09:57:51.000000000 Z
+- name: node-emoji
+  description: Simple emoji support for node.js projects
+  package_url: https://www.npmjs.com/node-emoji
+  version: 1.10.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16476/default_2a878d5ab9753668ecaed6b6450bf9952a00bc9b.png
+  detection_source_url: https://github.com/shinhanbyeol/milkdown/blob/main/packages/plugin-emoji/package.json
+  detection_source: packages/plugin-emoji/package.json
+  last_updated_by: Mirone Saul
+  last_updated_on: 2022-11-24 05:11:10.000000000 Z
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  version: 18.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/shinhanbyeol/milkdown/blob/main/packages/react/package.json
+  detection_source: packages/react/package.json
+  last_updated_by: Mirone Saul
+  last_updated_on: 2022-11-24 05:11:10.000000000 Z
+- name: remark
+  description: Markdown processor powered by plugins
+  package_url: https://www.npmjs.com/remark
+  version: 14.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16952/default_caea01ce44a5fd1bb200d8fc0f8f2a1695b4e569.png
+  detection_source_url: https://github.com/shinhanbyeol/milkdown/blob/main/packages/transformer/package.json
+  detection_source: packages/transformer/package.json
+  last_updated_by: Mirone
+  last_updated_on: 2022-11-15 09:57:51.000000000 Z
+- name: remark-gfm
+  description: Remark plugin to support GFM
+  package_url: https://www.npmjs.com/remark-gfm
+  version: 3.0.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/shinhanbyeol/milkdown/blob/main/packages/preset-gfm/package.json
+  detection_source: packages/preset-gfm/package.json
+  last_updated_by: Mirone
+  last_updated_on: 2023-02-08 04:33:48.000000000 Z
+- name: remark-parse
+  description: Remark plugin to parse Markdown
+  package_url: https://www.npmjs.com/remark-parse
+  version: 10.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17485/default_2ae5beb193365eca46e337162957275ebc9c6b3b.png
+  detection_source_url: https://github.com/shinhanbyeol/milkdown/blob/main/packages/core/package.json
+  detection_source: packages/core/package.json
+  last_updated_by: Mirone
+  last_updated_on: 2022-11-15 09:57:51.000000000 Z
+- name: remark-stringify
+  description: Remark plugin to compile Markdown
+  package_url: https://www.npmjs.com/remark-stringify
+  version: 10.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18614/default_b831eda26de3ba8a4563abf7f2a3af117da4db50.png
+  detection_source_url: https://github.com/shinhanbyeol/milkdown/blob/main/packages/core/package.json
+  detection_source: packages/core/package.json
+  last_updated_by: Mirone
+  last_updated_on: 2022-11-15 09:57:51.000000000 Z
+- name: rimraf
+  description: A deep deletion module for node
+  package_url: https://www.npmjs.com/rimraf
+  version: 4.0.0
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15807/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/shinhanbyeol/milkdown/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-01-13 07:01:02.000000000 Z
+- name: rollup-plugin-auto-external
+  description: Rollup plugin to automatically exclude package.json dependencies and
+    peerDependencies from your bundle
+  package_url: https://www.npmjs.com/rollup-plugin-auto-external
+  version: 2.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18258/default_9749acc47455bba1b3caf46c87e52ea52580fa90.png
+  detection_source_url: https://github.com/shinhanbyeol/milkdown/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-01-06 16:45:53.000000000 Z
+- name: rollup-plugin-copy
+  description: Copy files and folders using Rollup
+  package_url: https://www.npmjs.com/rollup-plugin-copy
+  version: 3.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18285/default_14d018f911261a59bddc0d862496e58cd91c1853.png
+  detection_source_url: https://github.com/shinhanbyeol/milkdown/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-01-06 16:45:53.000000000 Z
+- name: tailwindcss
+  description: A utility-first CSS framework for rapidly building custom user interfaces
+  package_url: https://www.npmjs.com/tailwindcss
+  version: 3.2.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17398/default_2cd7ed1c123f2fca074a6f4b16c4e73d5bfe82be.png
+  detection_source_url: https://github.com/shinhanbyeol/milkdown/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Mirone Saul
+  last_updated_on: 2023-01-05 06:19:36.000000000 Z
+- name: tslib
+  description: Runtime library for TypeScript helper functions
+  package_url: https://www.npmjs.com/tslib
+  version: 2.4.0
+  license: 0BSD
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15853/default_97d4687bd07ff1bb963fd566c84e7cbf7c73bbee.png
+  detection_source_url: https://github.com/shinhanbyeol/milkdown/blob/main/e2e/package.json
+  detection_source: e2e/package.json
+  last_updated_by: Mirone
+  last_updated_on: 2022-11-15 09:57:51.000000000 Z
+- name: unified
+  description: Interface for processing text using syntax trees
+  package_url: https://www.npmjs.com/unified
+  version: 10.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17259/default_03da3f7f53e439ab3b23ec47828b2f3229885efd.png
+  detection_source_url: https://github.com/shinhanbyeol/milkdown/blob/main/packages/core/package.json
+  detection_source: packages/core/package.json
+  last_updated_by: Mirone
+  last_updated_on: 2022-11-15 09:57:51.000000000 Z
+- name: unist-util-visit
+  description: Recursively walk over unist nodes
+  package_url: https://www.npmjs.com/unist-util-visit
+  version: 4.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17139/default_37d9ccc57ae4d32e7ff46614e4f8bb2c4ddc7964.png
+  detection_source_url: https://github.com/shinhanbyeol/milkdown/blob/main/packages/plugin-diagram/package.json
+  detection_source: packages/plugin-diagram/package.json
+  last_updated_by: Mirone
+  last_updated_on: 2022-11-15 09:57:51.000000000 Z
+- name: vite
+  description: Native-ESM powered web dev build tool
+  package_url: https://www.npmjs.com/vite
+  version: 4.0.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/shinhanbyeol/milkdown/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: renovate[bot]
+  last_updated_on: 2023-01-23 14:21:40.000000000 Z
+  vulnerabilities:
+  - name: Vite dev server option `server.fs.deny` can be bypassed when hosted on case-insensitive
+      filesystem
+    cve_id: CVE-2024-23331
+    cve_url: https://github.com/advisories/GHSA-c24v-8rfc-w8vw
+    detected_date: Jan 20
+    severity: high
+    first_patched: 4.5.2
+  - name: Vite Server Options (server.fs.deny) can be bypassed using double forward-slash
+      (//)
+    cve_id: CVE-2023-34092
+    cve_url: https://github.com/advisories/GHSA-353f-5xf4-qw67
+    detected_date: Nov 23
+    severity: high
+    first_patched: 4.0.5
+- name: vue
+  description: Vue
+  package_url: https://www.npmjs.com/vue
+  version: 3.2.47
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15844/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: https://github.com/shinhanbyeol/milkdown/blob/main/packages/vue/package.json
+  detection_source: packages/vue/package.json
+  last_updated_by: Saul Mirone
+  last_updated_on: 2021-06-18 09:09:11.000000000 Z
